@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script defer src="js/index.js"></script>
+    <title>Test Make</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="top">
+                <div class="top-info">
+                    <div class="logo">
+                        <a href="/" class="logo__link">
+                            <img src="img/logo.svg" class="logo__img" alt="logo">
+                        </a>
+                    </div>
+                    <div class="user">
+                        <span class="user__surname">Кулешов</span>
+                        <span class="user__firstname">Даниил Олегович</span>
+                    </div>
+                </div>
+                <button class="burger__btn" id="burgerBtn"></button>
+            </div>
+        </div>
+        <div class="menu" id="menu">
+            <div class=" container wrapper_header">
+                <div class="box">
+                </div>
+                <div class="menu__content" id="menuContent">
+                    <div class="menu__in">
+                        <div class="menu__done">
+                            Задание выполнил
+                        </div>
+                        <div class="name">
+                            <div class="name__surname">
+                                Кулешов
+                            </div>
+                            <div class="name__firstname">
+                                Даниил Олегович
+                            </div>
+                        </div>
+                        <p class="menu__discription">
+                            Имею опыт работы в руководящей должности. Успешно разработал и внедрил телеграмм бота для
+                            ГАУЗ ККДЦ имени И.А Колпинского на 11 филиалов организации.
+                        </p>
+                        <a class="menu__phone" href="tel:+79236001909">
+                            +7 (923) 600-19-09
+                        </a>
+                    </div>
+
+                    <a href="/" class="menu__social__link">
+                        <span class="menu__oval"></span>
+                        Ссылка на соцсеть/мессенджер</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main ">
+        <nav class="nav-left col-3 col-3_m" id="nav">
+            <a href="#test-work" class="nav-link nav-link_active ">Напутственное слово</a>
+            <a href="#grid" class="nav-link">Сетка</a>
+            <a href="#typography" class="nav-link">Типографика</a>
+            <a href="#ui" class="nav-link">UI</a>
+        </nav>
+        <div class="content">
+            <section class="test-work section_padding" id="test-work">
+                <div class="container wrapper">
+                    <div class="col-6 col-3_m">
+                        <h1 class="test-work__heading">Тестовое задание</h1>
+                        <h2 class="test-work__lvl">Уровень: junior</h2>
+                        <p class="test-work__description">Привет! Твоё тестовое задание — грамотно заверстать эту
+                            прекрасную
+                            страничку. В шапке страницы укажи своё ФИО, так всем будет удобнее. В менюхе под иконкой
+                            бургером мы
+                            хотели бы также видеть твои данные. Ну что, поехали?</p>
+                    </div>
+                </div>
+            </section>
+            <section class="grid section_padding" id="grid">
+                <div class="container wrapper">
+                    <div class="col-6 col-3_m">
+                        <h2 class="grid__heading">Сетка</h2>
+                        <p class="grid__description">Задание предполагает адаптивную вёрстку. Используется 3 состояния
+                            в зависимости
+                            от устройства. Сетка «резиновая» — переменной ширины.</p>
+                    </div>
+                    <ul class="grid__list-top col-9 col-3_m">
+                        <li class="grid__item-top">
+                            <div class="row-8">
+                                <h3 class="grid__desktop">Десктоп (1200+)</h3>
+                                <ul class="grid__list wrapper">
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Контент</span>
+                                        <span class="grid__item__descriptiong">1072–1312</span>
+                                    </li>
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Колонок</span>
+                                        <span class="grid__item__descriptiong">12</span>
+                                    </li>
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Ширина колонки</span>
+                                        <span class="grid__item__descriptiong">60-80</span>
+                                    </li>
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Межколонник</span>
+                                        <span class="grid__item__descriptiong">32</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row-9">
+                                <img src="img/pic_desctop.png" class="grid__img" alt="Desctop">
+                            </div>
+                        </li>
+                        <li class="grid__item-top">
+                            <div class="row-8">
+                                <h3 class="grid__desktop">Планшет (736+)</h3>
+                                <ul class="grid__list wrapper">
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Контент</span>
+                                        <span class="grid__item__descriptiong">672–928</span>
+                                    </li>
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Колонок</span>
+                                        <span class="grid__item__descriptiong">8</span>
+                                    </li>
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Ширина колонки</span>
+                                        <span class="grid__item__descriptiong">56-88</span>
+                                    </li>
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Межколонник</span>
+                                        <span class="grid__item__descriptiong">32</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row-9">
+                                <img src="img/pic_tab.png" class="grid__img" alt="Desctop">
+                            </div>
+                        </li>
+                        <li class="grid__item-top">
+                            <div class="row-8">
+                                <h3 class="grid__desktop">Телефон (320+)</h3>
+                                <ul class="grid__list wrapper">
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Контент</span>
+                                        <span class="grid__item__descriptiong">296–424</span>
+                                    </li>
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Колонок</span>
+                                        <span class="grid__item__descriptiong">4</span>
+                                    </li>
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Ширина колонки</span>
+                                        <span class="grid__item__descriptiong">56-88</span>
+                                    </li>
+                                    <li class="grid__item">
+                                        <span class="grid__item__heading">Межколонник</span>
+                                        <span class="grid__item__descriptiong">24</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row-9">
+                                <img src="img/pic_mob.png" class="grid__img" alt="Desctop">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="typography section_padding" id="typography">
+                <div class="container wrapper">
+                    <div class="col-6 col-3_m">
+                        <h2 class="typography__heading">Типографика</h2>
+                        <p class="typography__description">Используется шрифт Graphik. На телефонах стили типографики
+                            переопределяются</p>
+                    </div>
+                    <div class="col-9 col-3_m">
+                        <ul class="typography__list-display">
+                            <li class="typography__item-display typography__item-display_active" data-path="desctop">
+                                Десктоп
+                            </li>
+                            <li class="typography__item-display" data-path="mobile">
+                                Телефон
+                            </li>
+                        </ul>
+                        <ul class="typography__list-heading typography__list-heading_active" data-target="desctop">
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Заголовок H1, 48/56, bold
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__h1">
+                                    Текст заголовка
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Заголовок H2, 32/40, bold
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__h2">
+                                    Текст заголовка
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Заголовок H3, 24/32, medium
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__h3">
+                                    Текст заголовка
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Заголовок H4, 18/28, medium
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__h4">
+                                    Текст заголовка
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Лид P_Lead, 24/32, regular
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__p-lead">
+                                    Текст лида
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Крупный текст P_18, 18/28, regular
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__p-18">
+                                    Крупный текст
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Основной текст P_16, 16/24, regular
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__p-16">
+                                    Основной текст
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Впомогательный текст P_14, 14/20, regular
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__p-14">
+                                    Вспомогательный текст
+                                </span>
+                            </li>
+                        </ul>
+                        <ul class="typography__list-heading" data-target="mobile">
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Заголовок H1, 32/40, bold
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__h1_m">
+                                    Текст заголовка
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Заголовок H2, 28/36, bold
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__h2_m">
+                                    Текст заголовка
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Заголовок H3, 20/28, medium
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__h3_m">
+                                    Текст заголовка
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Заголовок H4, 18/28, medium
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__h4">
+                                    Текст заголовка
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Лид P_Lead, 20/28, regular
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__p-lead_m">
+                                    Текст лида
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Крупный текст P_18, 18/28, regular
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__p-18">
+                                    Крупный текст
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Основной текст P_16, 16/24, regular
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__p-16">
+                                    Основной текст
+                                </span>
+                            </li>
+                            <li class="typography__item-heading wrapper">
+                                <span class="typography__item-heading__heading">
+                                    Впомогательный текст P_14, 14/20, regular
+                                </span>
+                                <span class="typography__item-heading__text typography__item-heading__p-14">
+                                    Вспомогательный текст
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ui section_padding" id="ui">
+                <div class="container wrapper">
+                    <div class="col-6 col-3_m">
+                        <h2 class="ui__heading">UI</h2>
+                    </div>
+                    <article class="article col-9 col-3_m article_margin wrapper">
+                        <h3 class="article__heading col-6 col-3_m">Текстовое поле</h3>
+
+
+                        <form class="form__email col-3 col-3_m" id="form" target="_blank" novalidate>
+                            <input type="email" name="email" class="ui__email" id="email" placeholder="E-mail" required>
+                            <span class="email__error"></span>
+                        </form>
+                    </article>
+                    <article class="article col-9 col-3_m article_margin wrapper">
+                        <h3 class="article__heading col-6 col-3_m">Выпадающий список</h3>
+                        <p class="article__description col-6 col-3_m">Компонент состоит из текстового поля и выпадающей
+                            подсказки</p>
+                        <div class="ul__select col-3 col-3_m">
+                            <div class="custom__select" id="customSelect">
+                                <span class="custom__select__heading">Выберите что-нибудь</span>
+                                <span class="custom__select__arrow"></span>
+                            </div>
+                            <div class="custom__option" id="customOption">
+                                <span class="option">Первый стул</span>
+                                <span class="option">Второй стул</span>
+                                <span class="option">Выбранный пункт</span>
+                                <span class="option">Теорема Эскобара</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="article col-9 col-3_m article_margin wrapper">
+                        <h3 class="article__heading col-6 col-3_m">Кнопка</h3>
+                        <div class="col-2">
+                            <button class="article__btn">Отправить</button>
+                            <button class="article__btn" disabled="disabled">Отправить</button>
+                        </div>
+                    </article>
+                    <article class="article col-9 col-3_m article_margin wrapper">
+                        <h3 class="article__heading col-6 col-3_m">Чекбокс, радиобаттон</h3>
+                        <div class="col-9 col-3_m wrapper">
+                            <ul class="cb__list">
+                                <li class="cb__items">
+                                    <label class="checkbox__lable">
+                                        <input class="checkbox__input" type="checkbox" name="anything">
+                                        <span class="chck__box"></span>
+                                        <span class="checkbox__heading">
+                                            Выбери меня
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="cb__items">
+                                    <label class="checkbox__lable">
+                                        <input class="checkbox__input" type="checkbox" name="anything">
+                                        <span class="chck__box"></span>
+                                        <span class="checkbox__heading">
+                                            Выбери меня
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="cb__items">
+                                    <label class="checkbox__lable">
+                                        <input class="checkbox__input" type="checkbox" name="anything">
+                                        <span class="chck__box"></span>
+                                        <span class="checkbox__heading">
+                                            Птица счастья завтрашнего дня
+                                        </span>
+                                    </label>
+                                </li>
+                            </ul>
+                            <ul class="cb__list">
+                                <li class="cb__items">
+                                    <label class="radio__lable">
+                                        <input class="radio__input" type="radio" name="anything">
+                                        <span class="radio"></span>
+                                        <span class="radio__heading">
+                                            Птица счастья завтрашнего дня
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="cb__items">
+                                    <label class="radio__lable">
+                                        <input class="radio__input" type="radio" name="anything">
+                                        <span class="radio"></span>
+                                        <span class="radio__heading">
+                                            Макет оказался сильней
+                                        </span>
+                                    </label>
+                                </li>
+                                <li class="cb__items">
+                                    <label class="radio__lable">
+                                        <input class="radio__input" type="radio" name="anything">
+                                        <span class="radio"></span>
+                                        <span class="radio__heading">
+                                            Последний кораблик остыл
+                                        </span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="article col-9 col-3_m article_margin wrapper">
+                        <h3 class="article__heading col-6 col-3_m">Аккордеон</h3>
+                        <div class="col-9 col-3_m">
+                            <ul class="accordion__list" id="accordion">
+                                <li class="accordion__item">
+                                    <div class="accordion__head">
+                                        <span class="accordion__heading">
+                                            Аккордеон
+                                        </span>
+                                        <span class="custom__select__arrow"></span>
+                                    </div>
+                                    <div class="accordion__content">Гоpдость полными вагонами золотыми погонами
+                                        С юга дyют молодые вет…
+                                        Pазpывая в клочья облака не забыли шлют из далека
+                                        С дома мама И не последняя любовь
+                                        А по небy бегyт видишь чьи-то следы
+                                        Это может быть ты это может быть я
+                                        Это может наш дрyг
+                                        Это может нам поют свои
+                                    </div>
+                                </li>
+                                <li class="accordion__item">
+                                    <div class="accordion__head">
+                                        <span class="accordion__heading">
+                                            Аккордеон
+                                        </span>
+                                        <span class="custom__select__arrow"></span>
+                                    </div>
+                                    <div class="accordion__content">Гоpдость полными вагонами золотыми погонами
+                                        С юга дyют молодые вет…
+                                        Pазpывая в клочья облака не забыли шлют из далека
+                                        С дома мама И не последняя любовь
+                                        А по небy бегyт видишь чьи-то следы
+                                        Это может быть ты это может быть я
+                                        Это может наш дрyг
+                                        Это может нам поют свои
+                                    </div>
+                                </li>
+                                <li class="accordion__item">
+                                    <div class="accordion__head">
+                                        <span class="accordion__heading">
+                                            Аккордеон
+                                        </span>
+                                        <span class="custom__select__arrow"></span>
+                                    </div>
+                                    <div class="accordion__content">Гоpдость полными вагонами золотыми погонами
+                                        С юга дyют молодые вет…
+                                        Pазpывая в клочья облака не забыли шлют из далека
+                                        С дома мама И не последняя любовь
+                                        А по небy бегyт видишь чьи-то следы
+                                        Это может быть ты это может быть я
+                                        Это может наш дрyг
+                                        Это может нам поют свои
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
